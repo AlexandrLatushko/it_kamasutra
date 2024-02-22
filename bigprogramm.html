@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>big program</title>
+</head>
+<body>
+    <script>
+        const word0 = 'Wassup';
+        const word0Translation = 'Здарова';
+
+        const word1 = 'Bye';
+        const word1Translation = 'Покеда';
+
+        const word2 = 'Programmer';
+        const word2Translation = 'Программист';
+
+        const wordCount = 3;
+
+        const finishSucsessMassage = 'Good Work';
+        const finishOnSucsessMassage = 'Молодец, но постарайся лучше';
+
+        let correctAnsverCount = 0;
+
+        const userAnsver0 = prompt(word0); // 0
+        alert(userAnsver0 === word0Translation);
+        if (userAnsver0 === word0Translation) {
+            correctAnsverCount += 1;
+        }
+
+        const userAnsver1 = prompt(word1); // 1
+        alert(userAnsver1 === word1Translation);
+        if (userAnsver1 === word1Translation) {
+            correctAnsverCount += 1;
+        }
+
+        const userAnsver2 = prompt(word2); // 2
+        alert(userAnsver2 === word2Translation);
+        if (userAnsver2 === word2Translation) {
+            correctAnsverCount += 1;
+        }
+       
+        if (correctAnsverCount / wordCount * 100 > 50) {
+            alert(finishSucsessMassage); 
+        } else {
+            alert(finishOnSucsessMassage);
+        }
+    </script>
+</body>
+</html>
