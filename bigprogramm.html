@@ -24,22 +24,24 @@
 
         let correctAnsverCount = 0;
 
+        // ---------------------------------
+
         const userAnsver0 = prompt(word0); // 0
         alert(userAnsver0 === word0Translation);
         if (userAnsver0 === word0Translation) {
-            correctAnsverCount += 1;
+            correctAnsverCount ++ ;
         }
 
         const userAnsver1 = prompt(word1); // 1
         alert(userAnsver1 === word1Translation);
         if (userAnsver1 === word1Translation) {
-            correctAnsverCount += 1;
+            correctAnsverCount ++ ;
         }
 
         const userAnsver2 = prompt(word2); // 2
         alert(userAnsver2 === word2Translation);
         if (userAnsver2 === word2Translation) {
-            correctAnsverCount += 1;
+            correctAnsverCount ++ ;
         }
        
         if (correctAnsverCount / wordCount * 100 > 50) {

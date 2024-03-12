@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let house = [
+            [
+                {
+                    style: 'barn',
+                    houseArea: 80,
+                    numberOfRooms: 5,
+                    numberOfFloors: 2,
+                    bathhouse: true
+                },
+                {
+                    style: 'module',
+                    houseArea: 95,
+                    numberOfRooms: 3,
+                    numberOfFloors: 2,
+                    bathhouse: false
+                },
+                {
+                    style: 'Aframe',
+                    houseArea: 70,
+                    numberOfRooms: 4,
+                    numberOfFloors: 1,
+                    bathhouse: false
+                },
+            ],
+            [
+                {
+                    style: 'Chalet',
+                    houseArea: 100,
+                    numberOfRooms: 8,
+                    numberOfFloors: 3,
+                    bathhouse: true
+                },
+                {
+                    style: 'Minimalism',
+                    houseArea: 105,
+                    numberOfRooms: 5,
+                    numberOfFloors: 2,
+                    bathhouse: false
+                },
+            ]
+        ];
+
+        for (let i = 0; i < house.length; i++) {
+        
+            for (let j = 0; j < house[i].length; j++) {
+                document.write(house[i][j].style + "<br>");
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //         let grade1 = 5;
+        //         let grade2 = 3;
+        //         let grade3 = 4;
+        //         let grade4 = 2;
+        //         let grade5 = 5;
+
+        //         //console.log(grade3); // выведет 4
+        //         // console.log(grade5); // выведет 5
+
+        // //  создадим массив:
+        //         let grades = [5, 3, 4, 2, 5];
+
+        //         let extractedGrad = grades[4];
+        //         console.log(extractedGrad); выведет 5 тк на четвертом индексе стоит 5
+
+
+        // ------------------------------
+        // Массив названий книг в библиотеке
+        let book1 = 'Война и мир';
+        let book2 = 'Мастер и Маргарита';
+        let book3 = 'Преступление и наказание';
+        // console.log(book2); // 'Мастер и Маргарита' это вторая книга в списке
+
+        let books = ['Война и мир', 'Мастер и Маргарита', 'Преступление и наказание'];
+
+        let masterAndMargoBook = books[1];//так можно делать ссылку на элемент массива
+
+        console.log(books[2]);
+
+        // ----------------------
+        // массив ответов на вопрос Любите ли вы кофе
+        let answer1 = true;
+        let answer2 = false;
+        let answer3 = true;
+        let answer4 = true;
+
+        let answers = [true, false, true, true];
+        console.log(answers[2]);
+
+        // ------------------------
+        // массив паспортных данных людей
+        let perosn1 = { name: 'Anna', surname: 'Smirvowa', birthYear: 1994 };
+        let perosn2 = { name: 'Ivan', surname: 'Petrow', birthYear: 1985 };
+        console.log(perosn1.surname); // выведет данные из объекта perosn1 с ключем surname
+
+        let persons = [
+            {
+                name: 'Anna',
+                surname: 'Smirvowa',
+                birthYear: 1994
+            },
+            {
+                name: 'Ivan',
+                surname: 'Petrow',
+                birthYear: 1985
+            }
+        ];
+
+        let person = persons[1]
+        console.log(person.birthYear); //выведет 1985
+
+
+
+        // -------------------------
+        // Массив списка покупак 
+        let shoppingList1Item1 = 'молоко';
+        let shoppingList1Item2 = 'хлеб';
+        let shoppingList1Item3 = 'яйца';
+
+        let shoppingList2Item1 = 'сок';
+        let shoppingList2Item2 = 'мороженное';
+
+        let shoppingList3Item1 = 'корм для кота';
+        let shoppingList3Item2 = 'шампунь';
+
+        console.log(shoppingList1Item2);//выведет хлеб;
+
+        let shopingsLists = [
+                ['молоко', 'хлеб', 'яйца'],
+                ['сок', 'мороженное'],
+                ['корм для кота', 'шампунь']
+            ]
+        console.log(shopingsLists [1][0]);// выведет сок      
+
+
+  
+
+
+
+
+    </script>
+</body>
+
+</html>
